@@ -3,12 +3,18 @@ import React, { useState } from "react";
 import "../styles/Die.css";
 import { DadoImg } from "./DadoImg.js";
 
-export function Die() {
+export function Die({ currentPlayer, playerNumber, switchTurns }) {
   const [num, setNum] = useState(1);
 
+  const [rolled, setRolled] = useState(false);
+
   const handleClickJogar = () => {
-    const randomNumber = Math.floor(Math.random() * 6) + 1;
-    setNum(randomNumber);
+    if (currentPlayer === playerNumber && !rolled) {
+      const randomNumber = Math.floor(Math.random() * 6) + 1;
+      setNum(randomNumber);
+      setRolled(true);
+      switchTurns();
+    }
   };
 
   return (
