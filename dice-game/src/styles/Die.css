@@ -1,0 +1,19 @@
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20%;
+}
+
+.die {
+  background-color: var(--cor-secundaria);
+  border-radius: 32px;
+  padding: 1rem;
+  border-color: var(--cor-secundaria);
+  color: var(--cor-terciaria);
+  width: 50%;
+}
+
+.die-image {
+  width: 10%;
+}

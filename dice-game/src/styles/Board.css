@@ -1,0 +1,18 @@
+.board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.player-1 {
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+  width: 30%;
+  padding: 1rem;
+}
+
+.player-2 {
+  background-color: var(--cor-quaternaria);
+  color: var(--cor-primaria);
+  width: 30%;
+  padding: 1rem;
+}
