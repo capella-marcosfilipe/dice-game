@@ -1,0 +1,22 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "description": "Simple dice game in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capella-marcosfilipe/dice-game.git"
+  },
+  "author": "Marcos Filipe Capella",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/capella-marcosfilipe/dice-game/issues"
+  },
+  "homepage": "https://github.com/capella-marcosfilipe/dice-game#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
