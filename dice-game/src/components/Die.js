@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import "../styles/Die.css";
-import { Dado } from "./Dado";
+import { DadoImg } from "./DadoImg.js";
 
 export function Die() {
   const [num, setNum] = useState(1);
@@ -16,7 +16,7 @@ export function Die() {
       <button onClick={handleClickJogar} className="die">
         Jogue o dado
       </button>
-      <Dado valor={num} />
+      <DadoImg valor={num} />
     </div>
   );
 }

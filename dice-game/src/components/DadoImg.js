@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 
-import "../styles/Dado.css";
+import "../styles/DadoImg.css";
 
 const dados = [
   "https://cdn.glitch.global/d06ef131-6a92-4c03-9b83-0c7f07ea77eb/dado1.png?v=1709855087643",
@@ -11,7 +11,7 @@ const dados = [
   "https://cdn.glitch.global/d06ef131-6a92-4c03-9b83-0c7f07ea77eb/dado6.png?v=1709855090308",
 ];
 
-export const Dado = ({ valor }) => {
+export const DadoImg = ({ valor }) => {
   // return <h2>{valor}</h2>;
   return (
     <div>
