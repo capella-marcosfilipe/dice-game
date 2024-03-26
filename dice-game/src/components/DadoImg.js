@@ -12,7 +12,6 @@ const dados = [
 ];
 
 export const DadoImg = ({ valor }) => {
-  // return <h2>{valor}</h2>;
   return (
     <div>
       <img className="die-image" src={dados[valor - 1]} />
