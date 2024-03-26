@@ -1,22 +1,32 @@
 {
-  "name": "dice-game",
-  "version": "1.0.0",
-  "description": "Simple dice game in React",
-  "main": "index.js",
+  "name": "glitch-blank-react",
+  "version": "0.0.2",
+  "description": "A simple React app built with Vite and React.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.3"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
+  "engines": {
+    "node": "14.x"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/capella-marcosfilipe/dice-game.git"
+    "url": "https://glitch.com/edit/#!/glitch-blank-react"
   },
-  "author": "Marcos Filipe Capella",
-  "license": "SEE LICENSE IN LICENSE",
-  "bugs": {
-    "url": "https://github.com/capella-marcosfilipe/dice-game/issues"
-  },
-  "homepage": "https://github.com/capella-marcosfilipe/dice-game#readme",
-  "dependencies": {
-    "create-react-app": "^5.0.1"
+  "glitch": {
+    "projectType": "generated_static"
   }
 }
